@@ -179,7 +179,7 @@ h1{
   }
   
   .checkbox:checked + .switch {
-    background-color: #34C759;
+    background-color: #303030;
   }
   
   .checkbox:checked + .switch .slider {
