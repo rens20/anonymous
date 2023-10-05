@@ -1,6 +1,6 @@
 body{
  font-style:normal;
- background:    #00b4d8;   /**#303030; ***/
+ background: #F6F4EB  ;   /**#303030; ***/
 }
 h1{
     font-style:Sans-serif;
@@ -208,7 +208,7 @@ h1{
         height: 28px;
         position:absolute;
         margin-bottom: 8em;
-        margin-left: 40em;
+        margin-left: 30em;
       }
       .switch {
         width: 100%;
@@ -242,4 +242,13 @@ h1{
     #post-form {
         width: 100%; /* Make the form full-width on smartphones */
     }
+}
+/* Define styles for dark mode */
+.dark-mode {
+    background-color: #303030;
+    color: #fff;
+}
+
+.dark-mode .container {
+    background-color: #404040;
 }
