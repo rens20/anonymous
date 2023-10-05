@@ -23,16 +23,19 @@
     <script src="main.js"></script>
     <script>
         // Function to toggle dark mode
-const darkModeEnabled = false;
-document.getElementById("dark-mode-toggle").addEventListener("click", () => {
-    darkModeEnabled = !darkModeEnabled;
+function toggleDarkMode() {
     const body = document.body;
-    if (darkModeEnabled) {
+    const checkbox = document.getElementById("checkbox");
+
+    if (checkbox.checked) {
         body.classList.add("dark-mode");
     } else {
         body.classList.remove("dark-mode");
     }
-});
+}
+
+// Add an event listener to the checkbox
+document.getElementById("checkbox").addEventListener("change", toggleDarkMode);
     </script>
 </body>
 </html>
