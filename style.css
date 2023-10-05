@@ -1,12 +1,12 @@
 body{
  font-style:normal;
- background: #F6F4EB  ;   /**#303030; ***/
+ background: #f0f0f0 ;   /**#303030; ***/
 }
 h1{
     font-style:Sans-serif;
     text-align: center;
     text-decoration: overline;
-    color: aliceblue;
+    color: #303030;
     
 }
 #post-form {
